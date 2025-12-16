@@ -1,6 +1,6 @@
 `timescale 1ns/1ps 
-`define INPUTFILENAME		 "input_IP.hex" 
-`define OUTPUTFILENAME		 "output_IP.bmp"		
+`define INPUTFILENAME		 "input_image.hex" 
+`define OUTPUTFILENAME		 "output_image.bmp"		
 
 module tb_simulation;
 

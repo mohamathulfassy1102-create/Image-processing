@@ -1,10 +1,10 @@
 // Choose the operation of code by delete // in the beginning of the selected line
 
 
-`define BRIGHTNESS_OP
+//`define BRIGHTNESS_OP
 //`define INVERSION_OP
 //`define THRESHOLD_OP 
-//`define BLUR_OP
+`define BLUR_OP
 //`define SHARPEN_OP
 //`define EDGE_H_OP
 //`define CONTRAST_OP
@@ -12,7 +12,7 @@
 module image_read #(
     parameter   WIDTH = 768,
                 HEIGHT = 512,
-                FILE = "IP_image.hex",
+                FILE = "input_image.hex",
                 VALUE = 100,
                 START_UP_DELAY = 100,
                 H_SYNC_DELAY = 150,
@@ -47,9 +47,7 @@ module image_read #(
     integer idx_c0, idx_c1;
     integer idx_c0_left, idx_c0_right;
     integer idx_c1_left, idx_c1_right;
-
-    parameter DATA_WIDTH = 8,  // data width
-    parameter SIZE_OF_LENGTH = 1179648,  // image data : 1179648 bytes: 512 * 768 *3 
+    
     // state variables
     localparam		ST_IDLE 	= 2'b00,		
 				    ST_VSYNC	= 2'b01,			// state for creating vsync 
