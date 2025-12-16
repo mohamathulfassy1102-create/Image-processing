@@ -2,9 +2,9 @@
 
 
 //`define BRIGHTNESS_OP
-//`define INVERSION_OP
+`define INVERSION_OP
 //`define THRESHOLD_OP 
-`define BLUR_OP
+//`define BLUR_OP
 //`define SHARPEN_OP
 //`define EDGE_H_OP
 //`define CONTRAST_OP

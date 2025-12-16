@@ -1,7 +1,7 @@
 module image_write
 #(parameter WIDTH 	= 768,
 			HEIGHT 	= 512,
-			INFILE  = "output_image.bmp",
+			INFILE  = "output_IP_INV.bmp",
 			BMP_HEADER_NUM = 54
 )
 (
