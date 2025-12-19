@@ -2,6 +2,8 @@
 
 This repository contains an FPGA-oriented image processing system implemented in **Verilog HDL**, integrated with **Python (PIL)** for image pre-processing and file format conversion.
 
+**Note** : The project is not synthesizable since it has $readmemh(),$fwrite()
+
 The project was originally provided during my internship and has been **significantly upgraded** by adding:
 - Multiple image processing operations
 - Modular Verilog design
